@@ -20,9 +20,9 @@ Axis Ag is committed to being the single source provider of exceptional agricult
 | Dataset | Task | Number of Images |
 | :--- | ---: | ---: |
 [romaine](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/romaine.md) | Object Detection | 500 |
+[green cabbage](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/green_cabbage.md) | Object Detection | 500 |
 broccoli (coming soon) | Object Detection | 500 |
 iceberg (coming soon) | Object Detection | 500 |
-green cabbage (coming soon) | Object Detection | 500 |
 
 ## License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
