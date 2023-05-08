@@ -21,7 +21,7 @@ Axis Ag is committed to being the single source provider of exceptional agricult
 | :--- | ---: | ---: |
 [romaine](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/romaine.md) | Object Detection | 500 |
 [green cabbage](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/green_cabbage.md) | Object Detection | 500 |
-broccoli (coming soon) | Object Detection | 500 |
+[broccoli](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/broccoli.md) | Object Detection | 500 |
 [iceberg](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/iceberg.md) | Object Detection | 500 |
 
 ## License
