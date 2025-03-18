@@ -24,6 +24,11 @@ Axis Ag is committed to being the single source provider of exceptional agricult
 [broccoli](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/broccoli.md) | Object Detection | 500 |
 [iceberg](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/iceberg.md) | Object Detection | 500 |
 [strawberry](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/strawberry.md) | Object Detection | 500 |
+[beets](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/beets.md) | Object Detection | 1000 |
+[carrots](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/carrots.md) | Object Detection | 1000 |
+[celery](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/celery.md) | Object Detection | 1498 |
+[peppers](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/peppers.md) | Object Detection | 1000 |
+[red leaf](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/red_leaf.md) | Object Detection | 995 |
 
 ## License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
