@@ -1,10 +1,10 @@
-# `carrots`
+# `red_leaf (5"-6")`
 
 ## Dataset Metadata
 
 | Metadata | Value |
 | --- | --- |
-| **Classes** | carrots |
+| **Classes** | red_leaf |
 | **Machine Learning Task** | object_detection |
 | **Agricultural Task** | crops_detection |
 | **Location** | USA |
@@ -12,14 +12,14 @@
 | **Platform** | ground |
 | **Input Data Format** | JPG |
 | **Annotation Format** | coco_json |
-| **Number of Images** | 1000 |
+| **Number of Images** | 495 |
 
-![Example Image for carrots](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/sample/carrots_sample.png)
+![Example Image for red_leaf](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/sample/red_leaf_5-6_sample.png)
 
 
 ## Dataset
 
-[carrots_annotated](https://ghaipublic.s3.us-west-2.amazonaws.com/datasets/carrots_annotated.zip)
+[red_leaf_5-6_annotated](https://ghaipublic.s3.us-west-2.amazonaws.com/datasets/red_leaf_5-6_annotated.zip)
 
 
 ### Quick start
@@ -28,13 +28,13 @@ to do that using [FiftyOne](https://voxel51.com/fiftyone/).
 
 * Download the dataset, and extract the archive.
 ```shell
-wget "https://ghaipublic.s3.us-west-2.amazonaws.com/datasets/carrots_annotated.zip"
-unzip carrots_annotated.zip
+wget "https://ghaipublic.s3.us-west-2.amazonaws.com/datasets/red_leaf_5-6_annotated.zip"
+unzip red_leaf_5-6_annotated.zip
 ```
 * You should end up with a folder structure similar to this one:
 ```
 Project/
-|--carrots/
+|--red_leaf_5-6/
 |  |--coco.json
 |  |--image1.jpg
 |  |--...
@@ -53,8 +53,8 @@ import fiftyone.zoo as foz
 
 dataset = fo.Dataset.from_dir(
     dataset_type=fo.types.COCODetectionDataset,
-    data_path="./carrots/",
-    labels_path="./carrots/coco.json",
+    data_path="./red_leaf_5-6/",
+    labels_path="./red_leaf_5-6/coco.json",
     include_id=True,
 )
 

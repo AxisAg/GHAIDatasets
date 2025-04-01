@@ -1,10 +1,10 @@
-# `celery`
+# `beets (11"-12")`
 
 ## Dataset Metadata
 
 | Metadata | Value |
 | --- | --- |
-| **Classes** | celery |
+| **Classes** | beets |
 | **Machine Learning Task** | object_detection |
 | **Agricultural Task** | crops_detection |
 | **Location** | USA |
@@ -12,14 +12,14 @@
 | **Platform** | ground |
 | **Input Data Format** | JPG |
 | **Annotation Format** | coco_json |
-| **Number of Images** | 1498 |
+| **Number of Images** | 1000 |
 
-![Example Image for celery](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/sample/celery_sample.png)
+![Example Image for beets](https://github.com/AxisAg/GHAIDatasets/blob/main/datasets/sample/beets_11-12_sample.png)
 
 
 ## Dataset
 
-[celery_annotated](https://ghaipublic.s3.us-west-2.amazonaws.com/datasets/celery_annotated.zip)
+[beets_11-12_annotated](https://ghaipublic.s3.us-west-2.amazonaws.com/datasets/beets_11-12_annotated.zip)
 
 
 ### Quick start
@@ -28,13 +28,13 @@ to do that using [FiftyOne](https://voxel51.com/fiftyone/).
 
 * Download the dataset, and extract the archive.
 ```shell
-wget "https://ghaipublic.s3.us-west-2.amazonaws.com/datasets/celery_annotated.zip"
-unzip celery_annotated.zip
+wget "https://ghaipublic.s3.us-west-2.amazonaws.com/datasets/beets_11-12_annotated.zip"
+unzip beets_11-12_annotated.zip
 ```
 * You should end up with a folder structure similar to this one:
 ```
 Project/
-|--celery/
+|--beets_11-12/
 |  |--coco.json
 |  |--image1.jpg
 |  |--...
@@ -53,8 +53,8 @@ import fiftyone.zoo as foz
 
 dataset = fo.Dataset.from_dir(
     dataset_type=fo.types.COCODetectionDataset,
-    data_path="./celery/",
-    labels_path="./celery/coco.json",
+    data_path="./beets_11-12/",
+    labels_path="./beets_11-12/coco.json",
     include_id=True,
 )
 
